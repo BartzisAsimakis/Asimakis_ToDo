@@ -16,12 +16,12 @@ namespace AI_ex_8
 {
     public partial class MainWindow : Window
     {
-        // ====== Email settings (ΣΥΜΠΛΗΡΩΣΕ ΤΑ) ======
+        // ====== Email settings ======
         private const string SmtpHost = "smtp.gmail.com";
         private const int SmtpPort = 587;
         private const string FromEmail = "bartzisasimakis@gmail.com";
         private const string FromName = "Task Reminder";
-        private const string FromPass = "YOUR_APP_PASSWORD"; // APP PASSWORD από Gmail
+        private const string FromPass = "my_PASSWORD"; // APP PASSWORD από Gmail
         private const string ToEmail = "bartzisasimakis@gmail.com";
 
         private const string filename = "tasks.txt";
